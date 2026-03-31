@@ -1,0 +1,9 @@
+services:
+  cns-nats:
+    container_name: cns_nats
+    image: nats:2.12.6
+    hostname: cns-nats
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+    restart: unless-stopped
