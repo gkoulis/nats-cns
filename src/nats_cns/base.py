@@ -1,5 +1,5 @@
 """
-Central Nervous System (NATS).
+Central Nervous System (NATS CNS).
 
 Author: Dimitris Gkoulis
 Created on: Saturday 28 October 2023
