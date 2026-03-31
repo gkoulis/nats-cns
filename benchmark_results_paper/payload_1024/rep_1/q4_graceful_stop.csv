@@ -1,0 +1,2 @@
+path,payload_size,attempted_messages,sent_before_stop,received_before_join,lost_estimate,completion_rate,run_before_stop_s,producer_sleep_s
+hybrid_bridge,1024,100000,100000,1185,98815,0.01185,2.0,0.0

@@ -1,0 +1,4 @@
+path,payload_size,messages,elapsed_s,throughput_msgs_per_s
+local_only,256,50000,1.539186057,32484.701750387543
+distributed_only,ping,256,50000,8.09178406,6179.107058375949
+hybrid_bridge,256,50000,39.588135937,1263.0046557273952

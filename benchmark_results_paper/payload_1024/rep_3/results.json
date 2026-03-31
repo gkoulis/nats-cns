@@ -1,0 +1,102 @@
+{
+  "q1_latency": [
+    {
+      "count": 3000,
+      "max_us": 140.467,
+      "mean_us": 35.334559999999996,
+      "median_us": 27.79,
+      "messages": 3000,
+      "min_us": 19.65,
+      "p95_us": 60.99824999999999,
+      "p99_us": 69.12761999999987,
+      "path": "local_only",
+      "payload_size": 1024
+    },
+    {
+      "count": 3000,
+      "max_us": 14116.184,
+      "mean_us": 1432.3490060000001,
+      "median_us": 1365.0695,
+      "messages": 3000,
+      "min_us": 920.727,
+      "p95_us": 1811.8082499999996,
+      "p99_us": 2705.830269999974,
+      "path": "distributed_only",
+      "payload_size": 1024,
+      "serializer": "ping"
+    },
+    {
+      "count": 3000,
+      "max_us": 13696.835,
+      "mean_us": 1858.659546,
+      "median_us": 1774.2045,
+      "messages": 3000,
+      "min_us": 1274.235,
+      "p95_us": 2272.7976499999995,
+      "p99_us": 4606.840189999978,
+      "path": "hybrid_bridge",
+      "payload_size": 1024
+    }
+  ],
+  "q2_throughput": [
+    {
+      "elapsed_s": 1.658472469,
+      "messages": 50000,
+      "path": "local_only",
+      "payload_size": 1024,
+      "throughput_msgs_per_s": 30148.224305555235
+    },
+    {
+      "elapsed_s": 8.865558123,
+      "messages": 50000,
+      "path": "distributed_only",
+      "payload_size": 1024,
+      "serializer": "ping",
+      "throughput_msgs_per_s": 5639.802853503891
+    },
+    {
+      "elapsed_s": 39.938918058,
+      "messages": 50000,
+      "path": "hybrid_bridge",
+      "payload_size": 1024,
+      "throughput_msgs_per_s": 1251.9117299920124
+    }
+  ],
+  "q3_validation_serialization": [
+    {
+      "case": "pickle_with_validation",
+      "latency_mean_us": 1102.2202886666666,
+      "latency_p95_us": 1387.2382999999993,
+      "messages": 3000,
+      "payload_size": 1024,
+      "throughput_msgs_per_s": 6450.223081287778
+    },
+    {
+      "case": "pickle_without_validation",
+      "latency_mean_us": 1106.186161,
+      "latency_p95_us": 1371.5590999999995,
+      "messages": 3000,
+      "payload_size": 1024,
+      "throughput_msgs_per_s": 7148.752105968755
+    },
+    {
+      "case": "json_with_validation",
+      "latency_mean_us": 1135.34573,
+      "latency_p95_us": 1451.5943999999997,
+      "messages": 3000,
+      "payload_size": 1024,
+      "throughput_msgs_per_s": 6226.788168240692
+    }
+  ],
+  "q4_graceful_stop": {
+    "attempted_messages": 100000,
+    "completion_rate": 0.01314,
+    "lost_estimate": 98686,
+    "path": "hybrid_bridge",
+    "payload_size": 1024,
+    "producer_sleep_s": 0.0,
+    "received_before_join": 1314,
+    "run_before_stop_s": 2.0,
+    "sent_before_stop": 100000
+  }
+}
