@@ -1,7 +1,7 @@
 <br/>
 
 <h1 align="center">
-  A Lightweight Hybrid Publish/Subscribe Event Fabric <br/>for IPC and Modular Distributed Systems
+  A Lightweight Hybrid Publish/Subscribe Event Fabric for IPC and Modular Distributed Systems
 </h1>
 
 <div align="center">
@@ -383,7 +383,8 @@ If you use this repository in academic work, please cite the associated preprint
 
 Preprint:
 
-- arXiv: `2603.30030`
+- arXiv: [arXiv:2603.30030](https://arxiv.org/abs/2603.30030)
+- DOI: [10.1109/SoSE66311.2025.11083781](https://doi.org/10.48550/arXiv.2603.30030)
 
 ---
 
