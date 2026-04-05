@@ -1,4 +1,14 @@
-# A Lightweight Hybrid Publish/Subscribe Event Fabric for IPC and Modular Distributed Systems
+<br/>
+
+<h1 align="center">
+  A Lightweight Hybrid Publish/Subscribe Event Fabric <br/>for IPC and Modular Distributed Systems
+</h1>
+
+<div align="center">
+    <a href="https://www.dgk94.com/people/dimitris-gkoulis/" target="_blank">Dimitris Gkoulis</a>
+</div>
+
+---
 
 `nats-cns` is a lightweight Python prototype for building **local-first event-driven systems** that need both:
 
