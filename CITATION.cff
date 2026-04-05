@@ -1,22 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated paper below."
+message: "If you use this software, please cite it using the metadata from this file."
 title: "nats-cns"
 type: software
 authors:
   - family-names: "Gkoulis"
     given-names: "Dimitris"
-url: "https://github.com/gkoulis/nats-cns"
 repository-code: "https://github.com/gkoulis/nats-cns"
+url: "https://github.com/gkoulis/nats-cns"
 preferred-citation:
-  type: article
+  type: generic
   title: "A Lightweight Hybrid Publish/Subscribe Event Fabric for IPC and Modular Distributed Systems"
   authors:
     - family-names: "Gkoulis"
       given-names: "Dimitris"
   year: 2026
-  journal: "arXiv"
+  status: preprint
   identifiers:
-    - type: other
-      value: "arXiv:2603.30030"
+    - type: arxiv
+      value: "2603.30030"
       description: "arXiv preprint"
+  archive: "arXiv"
+  archive-place: "cs.DC"
   url: "https://arxiv.org/abs/2603.30030"
